@@ -48,7 +48,7 @@ jobs:
           action: upload
           app_location: "artifacts/detox-survey"
           output_location: "dist/public"
-          skip_app_build: true
+          skip_app_build: false
 
   close_pull_request:
     if: github.event_name == 'pull_request' && github.event.action == 'closed'
