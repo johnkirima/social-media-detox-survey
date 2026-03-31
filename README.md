@@ -227,3 +227,4 @@ GitHub: [github.com/johnkirima](https://github.com/johnkirima)
 - [shields.io](https://shields.io/) — badge generation
 - [Replit](https://replit.com/) — development and hosting environment
 - **Replit AI Agent** — assisted with scaffolding, component structure, Supabase integration, and code generation throughout development
+Deployment refresh
