@@ -24,10 +24,10 @@ jobs:
         with:
           node-version: 20
 
-      - name: Install dependencies and Build
+      - name: Install and Build
         run: |
           cd artifacts/detox-survey
-          npm install
+          npm install --legacy-peer-deps
           npm run build
         env:
           VITE_SUPABASE_URL: ${{ secrets.VITE_SUPABASE_URL }}
@@ -40,5 +40,5 @@ jobs:
           repo_token: ${{ secrets.GITHUB_TOKEN }}
           action: upload
           app_location: "artifacts/detox-survey"
-          output_location: "dist/public"
+          output_location: "dist"
           skip_app_build: true
