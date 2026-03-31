@@ -1,0 +1,14 @@
+uploads = []
+generated = []
+
+[[outputs]]
+id = "xqcqoF7yrlMNF9Ae6aj34"
+uri = "file://README.md"
+type = "text"
+title = "Social Media Detox Survey — README.md"
+
+[[outputs]]
+id = "WeLmr_Ai4BW0SIxaODO7w"
+uri = "file://WORKING_NOTES.md"
+type = "text"
+title = "WORKING_NOTES.md — Social Media Detox Survey"
